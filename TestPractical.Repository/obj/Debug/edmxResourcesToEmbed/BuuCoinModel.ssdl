@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="elaunch_buuModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="100" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MobileNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="State" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+    <Property Name="IDPhoto" Type="nvarchar" MaxLength="100" />
+    <Property Name="PassportPhoto" Type="nvarchar" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsEmailConfirm" Type="bit" Nullable="false" />
+    <Property Name="Emailconfirmcode" Type="varchar" MaxLength="10" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="IsReceiveNewsletter" Type="bit" />
+    <Property Name="SponsorID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifyBy" Type="int" />
+    <Property Name="ModifyDate" Type="datetime" />
+    <Property Name="DeletedBy" Type="int" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="IsTwoFactorVerification" Type="bit" />
+    <Property Name="TwoFactorCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="ForgotPasswordCode" Type="varchar" MaxLength="25" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsWalletBlock" Type="bit" />
+    <Property Name="Photo" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityContainer Name="elaunch_buuModelStoreContainer">
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

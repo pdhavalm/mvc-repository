@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Model\bin\Debug\BuuCoin.Model.dll
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Model\bin\Debug\BuuCoin.Model.pdb
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Model\obj\Debug\BuuCoin.Model.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Model\obj\Debug\BuuCoin.Model.dll
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Model\obj\Debug\BuuCoin.Model.pdb
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Model\obj\Debug\BuuCoin.Model.csprojAssemblyReference.cache

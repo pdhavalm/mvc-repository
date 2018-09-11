@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\BuuCoin.Repository.dll.config
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\BuuCoin.Repository.dll
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\BuuCoin.Repository.pdb
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\BuuCoin.Model.dll
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\BuuCoin.Model.pdb
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\obj\Debug\BuuCoin.Repository.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\obj\Debug\BuuCoin.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\obj\Debug\BuuCoin.Repository.csproj.CopyComplete
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\obj\Debug\BuuCoin.Repository.dll
+C:\Users\Administrator\source\repos\BuuCoin\BuuCoin.Repository\obj\Debug\BuuCoin.Repository.pdb
