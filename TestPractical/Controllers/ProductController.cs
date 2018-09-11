@@ -1,12 +1,11 @@
-﻿using BuuCoin.Helper;
-using BuuCoin.Model;
-using BuuCoin.Repository;
+﻿using TestPractical.Helper;
+using TestPractical.Model;
+using TestPractical.Repository;
 using System;
 using System.Linq;
 using System.Web.Mvc;
 
-
-namespace BuuCoin.Controllers
+namespace TestPractical.Controllers
 {
     [SessionTimeoutAttribute]
     public class ProductController : Controller
@@ -30,8 +29,8 @@ namespace BuuCoin.Controllers
             var result = _list.Select(s => new ProductViewModel
             {
                 Id = s.Id,
-                CategoryId = s.CategoryId,
-                Category = _ICategoryRepository.GetById(s.CategoryId).Name,
+                CategoryId = (int)s.CategoryId,
+                Category = _ICategoryRepository.GetById((int)s.CategoryId).Name,
                 Name = s.Name,
                 Description = s.Description,
                 Price = (decimal)s.Price,

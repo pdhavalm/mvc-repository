@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BuuCoin.Model
+namespace TestPractical.Model
 {
     using System;
     using System.Collections.Generic;

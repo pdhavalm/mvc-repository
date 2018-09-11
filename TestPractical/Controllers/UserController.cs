@@ -1,10 +1,10 @@
-﻿using BuuCoin.Helper;
-using BuuCoin.Model;
-using BuuCoin.Repository;
+﻿using TestPractical.Helper;
+using TestPractical.Model;
+using TestPractical.Repository;
 using System.Linq;
 using System.Web.Mvc;
 
-namespace BuuCoin.Controllers
+namespace TestPractical.Controllers
 {
     [SessionTimeoutAttribute]
     public class UserController : Controller

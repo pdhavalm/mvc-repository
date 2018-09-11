@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BuuCoin.Model
+namespace TestPractical.Model
 {
     using System;
     using System.Data.Entity;
@@ -25,8 +25,8 @@ namespace BuuCoin.Model
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Admin> Admin { get; set; }
         public virtual DbSet<Category> Category { get; set; }
         public virtual DbSet<Product> Product { get; set; }
-        public virtual DbSet<Admin> Admin { get; set; }
     }
 }

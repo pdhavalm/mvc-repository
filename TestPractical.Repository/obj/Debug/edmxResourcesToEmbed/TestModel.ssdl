@@ -21,7 +21,7 @@
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="CategoryId" Type="int" />
     <Property Name="Name" Type="nvarchar" MaxLength="50" />
     <Property Name="Description" Type="nvarchar(max)" />
     <Property Name="Price" Type="decimal" Precision="18" Scale="2" />

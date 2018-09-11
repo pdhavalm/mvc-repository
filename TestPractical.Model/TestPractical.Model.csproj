@@ -66,10 +66,5 @@
       <LastGenOutput>TestModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\TestPractical\Views\Home\Index.cshtml">
-      <Link>Index.cshtml</Link>
-    </None>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

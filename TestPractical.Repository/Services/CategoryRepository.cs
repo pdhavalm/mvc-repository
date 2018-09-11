@@ -4,9 +4,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BuuCoin.Model;
+using TestPractical.Model;
 
-namespace BuuCoin.Repository
+namespace TestPractical.Repository
 {
     public class CategoryRepository : ICategoryRepository
     {

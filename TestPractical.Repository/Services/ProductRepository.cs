@@ -1,5 +1,5 @@
-﻿using BuuCoin.Model;
-using BuuCoin.Repository;
+﻿using TestPractical.Model;
+using TestPractical.Repository;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuuCoin.Repository
+namespace TestPractical.Repository
 {
     public class ProductRepository: IProductRepository
     {

@@ -1,10 +1,10 @@
-﻿using BuuCoin.Model;
+﻿using TestPractical.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace BuuCoin.Helper
+namespace TestPractical.Helper
 {
     public class SessionFecade
     {
