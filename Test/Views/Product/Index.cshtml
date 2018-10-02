@@ -135,12 +135,14 @@
     }
 
     function fnDeleteData( cid) {
-        var data = { id: cid };
-        $.post('@Url.Action("Delete","Product")', data, function (res) {
-            if (res.aaData === 1) {
-                dataBind();
-            }
-        });
+        if (confirm("Are u sure you want delete?")) {
+            var data = { id: cid };
+            $.post('@Url.Action("Delete","Product")', data, function (res) {
+                if (res.aaData === 1) {
+                    dataBind();
+                }
+            });
+        }
     }
 </script>
 

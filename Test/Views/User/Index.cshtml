@@ -105,13 +105,15 @@
         $('#btnSave').text('Update');
     }
 
-    function fnDeleteData( cid) {
-        var data = { id: cid };
-        $.post('@Url.Action("Delete","User")', data, function (res) {
-            if (res.aaData === 1) {
-                dataBind();
+        function fnDeleteData(cid) {
+            if (confirm("Are u sure you want delete?")) {
+                var data = { id: cid };
+                $.post('@Url.Action("Delete","User")', data, function (res) {
+                    if (res.aaData === 1) {
+                        dataBind();
+                    }
+                });
             }
-        });
     }
     </script>
 }
